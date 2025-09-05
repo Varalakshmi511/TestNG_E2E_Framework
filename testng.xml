@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AmazonSuite" parallel="false">
+    <test name="AmazonTests">
+        <classes>
+            <class name="tests.AmazonSearchTest"/>
+            <class name="tests.AmazonCartTest"/>
+        </classes>
+    </test>
+</suite>
